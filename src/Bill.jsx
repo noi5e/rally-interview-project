@@ -6,11 +6,15 @@ function Bill(props) {
 
   if (props.hasOwnProperty("isSupported") && props.isSupported) {
     supportPanel = (
-      <div className="supported-bill">You Support this bill. 👍</div>
+      <div className="supported-bill">
+        You <span className="green bold">Support</span> this bill. 👍
+      </div>
     );
   } else if (props.hasOwnProperty("isSupported") && !props.isSupported) {
     supportPanel = (
-      <div className="unsupported-bill">You Do Not Support this bill. 👎</div>
+      <div className="unsupported-bill">
+        You <span className="red bold">Do Not Support</span> this bill. 👎
+      </div>
     );
   } else {
     supportPanel = (

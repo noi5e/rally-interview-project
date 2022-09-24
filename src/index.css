@@ -1,0 +1,21 @@
+:root {
+  --dark-gray: #aaa;
+  --main-red: red;
+  --main-green: green;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.red {
+  color: var(--main-red);
+}
+
+.green {
+  color: var(--main-green);
+}
+
+.bold {
+  font-weight: bold;
+}

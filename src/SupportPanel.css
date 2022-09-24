@@ -1,4 +1,21 @@
 .bill-support-panel {
   width: 50%;
   float: right;
+  background-color: var(--dark-gray);
+  text-align: center;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.yes-button {
+  background-color: var(--main-green);
+  margin-right: 5px;
+}
+
+.no-button {
+  background-color: var(--main-red);
 }
