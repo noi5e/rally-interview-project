@@ -1,3 +1,16 @@
 .bill {
   border: 1px solid black;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.bill-data {
+  width: 50%;
+  flex: 1;
+}
+
+.supported-bill,
+.unsupported-bill {
+  width: 50%;
+  flex: 1;
 }
