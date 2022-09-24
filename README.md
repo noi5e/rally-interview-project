@@ -1,6 +1,7 @@
-# rally-interview-project
+# Civix
 This project was created as part of the interview process for Rally.
-https://user-images.githubusercontent.com/4361605/192119939-3d352ef7-ffe9-4319-b02a-b024b29253db.mov
+
+[Video of Civix in action](https://user-images.githubusercontent.com/4361605/192119939-3d352ef7-ffe9-4319-b02a-b024b29253db.mov)
 
 ## Features
 - "Fetches" data from `bills.json` API
